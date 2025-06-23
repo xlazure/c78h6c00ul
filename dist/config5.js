@@ -33,6 +33,7 @@ const BASE_CONFIG = {
 const FEATURE_CONFIG = {
   bestsellersCarousel: {
     targetSelector: ".lat-prd.v2",
+    mountMode: "append",
     apiUrl: "https://prod-reco.azure-api.net/pl-best/score",
     apiToken:
       "9RzyqGwlEtZ6G9r6qzHe3w1NzB1giqio7Dq4yz83EVXzaoaQdDAWJQQJ99BDAAAAAAAAAAAAINFRAZML1lu2",
