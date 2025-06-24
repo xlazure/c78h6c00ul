@@ -19,7 +19,7 @@ const getProductUrlApi = (fsc) =>
 // Base configuration
 const BASE_CONFIG = {
   TEST_MODE: true,
-  allowedAccounts: ["16806573", "16386183"],
+  allowedAccounts: ["16806573", "16386183", "81521333"],
   userId: getAccNr(),
   MARKET,
   COUNTRY_CURRENCY,
