@@ -4,10 +4,19 @@ const COUNTRY_CURRENCY = "zł";
 const AVON_API_URL = "https://apim-eu.api-prod.aws.avon.com";
 
 const TRANSLATIONS = {
-  addToCart: "DODAJ",
-  chooseVariant: "Wybierz wariant",
-  shade: "Odcień",
-  set: "Zestaw",
+  bestsellersCarousel: {
+    title: "Najczęściej kupowane",
+    addToCart: "DODAJ",
+    chooseVariant: "Wybierz wariant",
+    shade: "Odcień",
+    set: "Zestaw",
+    selectQuantityModal: "wybierz ilość",
+    chooseColorModal: "wybierz kolor",
+    showDetailsModal: "pokaż szczegóły",
+    orderForAFriendModal: "Zamów dla znajomego",
+    AddToCartModal: "Dodaj do koszyka",
+    showMore: "Pokaż więcej",
+  },
 };
 
 // Dev variable
