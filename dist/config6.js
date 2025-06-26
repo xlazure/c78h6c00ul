@@ -27,9 +27,9 @@ const getProductUrlApi = (fsc) =>
 
 // Base configuration
 const BASE_CONFIG = {
-  TEST_MODE: true,
-  allowedAccounts: ["16806573", "16386183", "81521333"],
-  userId: getAccNr(),
+  // TEST_MODE: true,
+  // allowedAccounts: ["16806573", "16386183", "81521333"],
+  // userId: getAccNr(),
   MARKET,
   COUNTRY_CURRENCY,
   LOGGER_SERVICE_URL: `v1/${MARKET}/${MARKET}/cm/logger`,
