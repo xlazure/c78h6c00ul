@@ -24,7 +24,7 @@ const FEATURE_CONFIG = {
   bestsellersCarousel: {
     targetSelector: getAcctTyp() === "REP" ? ".lat-prd.v2" : ".dashbdLS",
     mountMode: getAcctTyp() === "REP" ? "append" : "prepend",
-    apiUrl: "https://prod-reco.azure-api.net/pl-best/score",
+    apiUrl: `https://prod-reco.azure-api.net/${MARKET.toLowerCase()}-best/score`,
     apiToken: "",
     enableLogging: true,
     responseBody: {
